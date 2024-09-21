@@ -1,0 +1,148 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 21 Sep 2024 09:03:08 at https://tuev-thueringen.de/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tuev-thueringen.de/ -%L https://tuev-thueringen.de/ -O1 "C:\My Web Sites\german project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:03:08	Error: 	Could not include URL list: https://tuev-thueringen.de/
+09:04:18	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/theme/3f6233f0b5934853b72b38eab2b3c6b9/assets/ (from https://tuev-thueringen.de/)
+09:04:18	Warning: 	Moved Permanently for https://tuev-thueringen.de/Call-Back/
+09:04:18	Warning: 	File has moved from https://tuev-thueringen.de/Call-Back/ to https://tuev-thueringen.de/rueckruf-wunsch/
+09:05:43	Warning: 	Moved Permanently for https://tuev-thueringen.de/Mobilitaet-Verkehr/Fahreignung-Tauglichkeit/Eignungsuntersuchung-fuer-Berufskraftfahrer/
+09:05:43	Warning: 	File has moved from https://tuev-thueringen.de/Mobilitaet-Verkehr/Fahreignung-Tauglichkeit/Eignungsuntersuchung-fuer-Berufskraftfahrer/ to https://mpu.tuev-thueringen.de/institut-fuer-verkehrssicherheit/berufskraftfahrer/
+09:06:53	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/qualitaetsmanagement/lebensmittelsicherheit/
+09:06:53	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/qualitaetsmanagement/lebensmittelsicherheit/ to https://zertifizierung.tuev-thueringen.de/managementsysteme/managementsysteme-in-der-lebens-und-futtermittelbranche/
+09:07:24	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/it-managementsysteme/
+09:07:24	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/it-managementsysteme/ to https://zertifizierung.tuev-thueringen.de/Managementsysteme/IT-Managementsystem/
+09:08:19	Warning: 	Moved Permanently for https://tuev-thueringen.de/Gebaeude-Anlagen/Gebaeudetechnik/Klimaanlagen/
+09:08:19	Warning: 	File has moved from https://tuev-thueringen.de/Gebaeude-Anlagen/Gebaeudetechnik/Klimaanlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/gebaeudetechnik/energetische-inspektion-von-technischer-gebaeudeausruestung/
+09:08:20	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/energiemanagement/
+09:08:20	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/energiemanagement/ to https://zertifizierung.tuev-thueringen.de/Managementsysteme/Energiemanagementsystem/
+09:08:29	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/nachhaltige-logistik/
+09:08:29	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/nachhaltige-logistik/ to https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/
+09:12:30	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/werkstoffpruefung/id-e-by-tuev-thueringen/
+09:12:30	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/werkstoffpruefung/id-e-by-tuev-thueringen/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/druckspeicherpruefung/
+09:12:37	Warning: 	Moved Permanently for https://tuev-thueringen.de/arbeit-gesundheit/messgeraete-kalibrieren/
+09:12:37	Warning: 	File has moved from https://tuev-thueringen.de/arbeit-gesundheit/messgeraete-kalibrieren/ to https://tuev-thueringen.de/arbeit-gesundheit/kalibrierservice/
+09:12:37	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/
+09:12:37	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/
+09:12:38	Warning: 	Moved Permanently for https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/sicherheitsuntersuchungen-an-nutzfahrzeugen/
+09:12:38	Warning: 	File has moved from https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/sicherheitsuntersuchungen-an-nutzfahrzeugen/ to https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/sicherheitspruefungen-an-nutzfahrzeugen/
+09:12:38	Warning: 	Moved Permanently for https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/ladungssicherheit/
+09:12:38	Warning: 	File has moved from https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/ladungssicherheit/ to https://tuev-thueringen.de/mobilitaet-verkehr/service-fuhrparks/ladungssicherheit/
+09:12:39	Warning: 	Moved Permanently for https://tuev-thueringen.de/Unternehmen/Downloads/
+09:12:39	Warning: 	File has moved from https://tuev-thueringen.de/Unternehmen/Downloads/ to https://tuev-thueringen.de/kontakt/downloads/
+09:12:39	Warning: 	Moved Permanently for https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/gasanlagen-pruefung/
+09:12:39	Warning: 	File has moved from https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/gasanlagen-pruefung/ to https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/fahrzeug-gasanlagen/
+09:12:40	Warning: 	Moved Permanently for https://tuev-thueringen.de/unternehmen/downloads/
+09:12:40	Warning: 	File has moved from https://tuev-thueringen.de/unternehmen/downloads/ to https://tuev-thueringen.de/kontakt/downloads/
+09:12:43	Warning: 	Moved Permanently for https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/oldtimergutachten/
+09:12:43	Warning: 	File has moved from https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/oldtimergutachten/ to https://tuev-thueringen.de/mobilitaet-verkehr/kfz-dienstleistungen/oldtimer/oldtimergutachten/
+09:12:44	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/"//widgets//cms//82d2c3674ebf4cf1b3c1b88d89ad9069/" (from https://tuev-thueringen.de/mobilitaet-verkehr/schaden-unfall-bewertungen/gebrauchtwagen-zertifikat/)
+09:12:44	Warning: 	Moved Permanently for https://tuev-thueringen.de/Mobilitaet-Verkehr/Service-fuer-Autohaeuser-Werkstaetten/Arbeitssicherheit/
+09:12:44	Warning: 	File has moved from https://tuev-thueringen.de/Mobilitaet-Verkehr/Service-fuer-Autohaeuser-Werkstaetten/Arbeitssicherheit/ to https://tuev-thueringen.de/mobilitaet-verkehr/service-fuer-autohaeuser-werkstaetten/betreiberpflichten/arbeitssicherheit/
+09:12:44	Warning: 	Moved Permanently for https://tuev-thueringen.de/Arbeit-Gesundheit/Messgeraete-kalibrieren/
+09:12:44	Warning: 	File has moved from https://tuev-thueringen.de/Arbeit-Gesundheit/Messgeraete-kalibrieren/ to https://tuev-thueringen.de/arbeit-gesundheit/kalibrierservice/
+09:12:44	Warning: 	Moved Permanently for https://tuev-thueringen.de/mobilitaet-verkehr/service-fuer-autohaeuser-werkstaetten/gebaeudetechnik/
+09:12:44	Warning: 	File has moved from https://tuev-thueringen.de/mobilitaet-verkehr/service-fuer-autohaeuser-werkstaetten/gebaeudetechnik/ to https://tuev-thueringen.de/gebaeude-anlagen/gebaeudetechnik/
+09:12:48	Warning: 	Moved Permanently for https://tuev-thueringen.de/mobilitaet-verkehr/fahreignung-tauglichkeit/eignungsuntersuchung-fuer-berufskraftfahrer/
+09:12:48	Warning: 	File has moved from https://tuev-thueringen.de/mobilitaet-verkehr/fahreignung-tauglichkeit/eignungsuntersuchung-fuer-berufskraftfahrer/ to https://mpu.tuev-thueringen.de/institut-fuer-verkehrssicherheit/berufskraftfahrer/
+09:12:50	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/arbeit-gesundheit/bildung/personalzertifizierung/ (from https://tuev-thueringen.de/arbeit-gesundheit/bildung/)
+09:12:51	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/arbeit-gesundheit/bildung/arbeitsfoerderung-und-managementsysteme-bildung/ (from https://tuev-thueringen.de/arbeit-gesundheit/bildung/)
+09:12:51	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/
+09:12:51	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/
+09:12:51	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/baumuster-geprueft/
+09:12:51	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/baumuster-geprueft/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/baumuster-geprueft/
+09:12:51	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/bauart-geprueft/
+09:12:51	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/bauart-geprueft/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/bauart-geprueft/
+09:12:51	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/mechanische-sicherheit/
+09:12:51	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/mechanische-sicherheit/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/mechanische-sicherheit/
+09:12:53	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/elektrische-sicherheit/
+09:12:53	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/elektrische-sicherheit/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/elektrische-sicherheit/
+09:12:53	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/gebrauchstauglichkeit/
+09:12:53	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/gebrauchstauglichkeit/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/gebrauchstauglichkeit/
+09:12:53	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/ergonomie/
+09:12:53	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/ergonomie/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/ergonomie/
+09:12:54	Warning: 	Moved Permanently for https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/schadstoff-geprueft/
+09:12:54	Warning: 	File has moved from https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/tuev-thueringen-pruefzeichen/schadstoff-geprueft/ to https://tuev-thueringen.de/zeichen-zertifikate/pruefzeichen/produktpruefungen/zeichen-zur-produktpruefung/schadstoff-geprueft/
+09:12:55	Error: 	"Not Found" (404) at link https://www.shopware.com/en/image.jpg (from https://tuev-thueringen.de/gebaeude-anlagen/freizeitanlagen/spielplaetze/)
+09:12:55	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/seilbahnen-und-schlepplifte/
+09:12:55	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/seilbahnen-und-schlepplifte/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/zertifizierung-seilbahnen-und-schlepplifte/
+09:12:55	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/seilbahnen-und-schlepplifte/pruefung-von-seilbahnen-und-schleppliften/
+09:12:55	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/seilbahnen-und-schlepplifte/pruefung-von-seilbahnen-und-schleppliften/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/zertifizierung-seilbahnen-und-schlepplifte/pruefung-von-seilbahnen-und-schleppliften/
+09:12:55	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/genehmigungsmanagement/
+09:12:55	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/genehmigungsmanagement/ to https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/genehmigungsmanagement-nach-bimschg/
+09:12:56	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/dampfkesselanlagen/
+09:12:56	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/dampfkesselanlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/dampfkesselanlagen/
+09:12:56	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/druckbehaelteranlagen/
+09:12:56	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/druckbehaelteranlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/druckbehaelteranlagen/
+09:12:56	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/tankstellen/
+09:12:56	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/tankstellen/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/tankstellen/
+09:12:56	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/kaelteanlagen/
+09:12:56	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/anlagenpruefung-nach-betrsichv/kaelteanlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/kaelteanlagen/
+09:12:56	Warning: 	Moved Permanently for https://tuev-thueringen.de/Gebaeude-Anlagen/Anlagenpruefung-nach-BetrSichV/Druckbehaelteranlagen/
+09:12:56	Warning: 	File has moved from https://tuev-thueringen.de/Gebaeude-Anlagen/Anlagenpruefung-nach-BetrSichV/Druckbehaelteranlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/druckbehaelteranlagen/
+09:12:57	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/digitalisierung/cybersecurity/
+09:12:57	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/digitalisierung/cybersecurity/ to https://tuev-thueringen.de/gebaeude-anlagen/digitale-sicherheit/cybersecurity/
+09:12:57	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/digitale-sicherheit/cybersecurity/kontaktformular-digitalisierung/
+09:12:57	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/digitale-sicherheit/cybersecurity/kontaktformular-digitalisierung/ to https://tuev-thueringen.de/gebaeude-anlagen/digitale-sicherheit/cybersecurity/kontaktformular-digitale-sicherheit/
+09:13:05	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-Anlagen/anlagenpruefung-nach-betrsichv/
+09:13:05	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-Anlagen/anlagenpruefung-nach-betrsichv/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/
+09:13:05	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/anlagensicherheit/sicherheitskonzepte-komplexer-anlagen/
+09:13:05	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/anlagensicherheit/sicherheitskonzepte-komplexer-anlagen/ to https://beratung.tuev-thueringen.de/arbeitssicherheit/
+09:13:05	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/brexit-fragen/brexit-questions/
+09:13:05	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/brexit-fragen/brexit-questions/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/druckgeraete/brexit-fragen/brexit-questions/
+09:13:07	Warning: 	Moved Permanently for https://tuev-thueringen.de/Gebaeude-Anlagen/Anlagenpruefung-nach-BetrSichV/
+09:13:07	Warning: 	File has moved from https://tuev-thueringen.de/Gebaeude-Anlagen/Anlagenpruefung-nach-BetrSichV/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/
+09:13:07	Warning: 	Moved Permanently for https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Umweltschutz/Genehmigungsmanagement/
+09:13:07	Warning: 	File has moved from https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Umweltschutz/Genehmigungsmanagement/ to https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/genehmigungsmanagement-nach-bimschg/
+09:13:07	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Umweltschutz/Laermschutz/ (from https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/deponie-und-klaergasanlagen/)
+09:13:09	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Managementsysteme/Energiemanagement/ISO-50001/ (from https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/genehmigungsmanagement-nach-bimschg/)
+09:13:10	Warning: 	Moved Permanently for https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Klimaschutz/Verifizierung-von-CO2-Emissionsberichten/
+09:13:10	Warning: 	File has moved from https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Klimaschutz/Verifizierung-von-CO2-Emissionsberichten/ to https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/verifizierung-von-treibhausgas-emissionsberichten/
+09:13:11	Warning: 	Moved Permanently for https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Erneuerbare-Energien/Photovoltaik/Wiederkehrende-Pruefung-von-PV-Anlagen/
+09:13:11	Warning: 	File has moved from https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Erneuerbare-Energien/Photovoltaik/Wiederkehrende-Pruefung-von-PV-Anlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/photovoltaik/wiederkehrende-pruefung-von-pv-anlagen/
+09:13:11	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Managementsysteme/Umweltmanagementsysteme/ (from https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/genehmigungsmanagement-nach-bimschg/)
+09:13:12	Warning: 	Moved Permanently for https://tuev-thueringen.de/Gebaeude-Anlagen/Maschinen-und-Anlagen/Stallanlagen/
+09:13:12	Warning: 	File has moved from https://tuev-thueringen.de/Gebaeude-Anlagen/Maschinen-und-Anlagen/Stallanlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/stall-und-jgs-anlagen/
+09:13:12	Warning: 	Moved Permanently for https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Erneuerbare-Energien/Biogas/
+09:13:12	Warning: 	File has moved from https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Erneuerbare-Energien/Biogas/ to https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/biogasanlagen/
+09:13:12	Warning: 	Moved Permanently for https://tuev-thueringen.de/Gebaeude-Anlagen/Anlagenpruefung-nach-BetrSichV/Kaelteanlagen/
+09:13:12	Warning: 	File has moved from https://tuev-thueringen.de/Gebaeude-Anlagen/Anlagenpruefung-nach-BetrSichV/Kaelteanlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/kaelteanlagen/
+09:13:12	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/gebaeudetechnik/klimaanlagen/
+09:13:12	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/gebaeudetechnik/klimaanlagen/ to https://tuev-thueringen.de/gebaeude-anlagen/gebaeudetechnik/energetische-inspektion-von-technischer-gebaeudeausruestung/
+09:13:13	Warning: 	Moved Permanently for https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/explosionsschutz/
+09:13:13	Warning: 	File has moved from https://tuev-thueringen.de/gebaeude-anlagen/maschinen-und-anlagen/explosionsschutz/ to https://tuev-thueringen.de/gebaeude-anlagen/pruefungen-nach-betriebssicherheitsverordnung/explosionsschutz/
+09:13:13	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/verifizierung-von-treibhausgas-emissionsberichten/ (from https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/)
+09:13:13	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/verifizierung-co2-fussabdruck-von-produkten/ (from https://tuev-thueringen.de/umwelt-nachhaltigkeit/klimaschutz/)
+09:13:17	Warning: 	Moved Permanently for https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/umweltmanagement/
+09:13:17	Warning: 	File has moved from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/umweltmanagement/ to https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/umweltmanagementsysteme/
+09:13:17	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/umwelt-nachhaltigkeit/umweltschutz/laermschutz/ (from https://tuev-thueringen.de/unternehmen/tuev-als-marke/bluetuev/)
+09:13:17	Warning: 	Moved Permanently for https://tuev-thueringen.de/Mobilitaet-Verkehr/Fahreignung-Tauglichkeit/Fahreignungsseminar/
+09:13:17	Warning: 	File has moved from https://tuev-thueringen.de/Mobilitaet-Verkehr/Fahreignung-Tauglichkeit/Fahreignungsseminar/ to https://mpu-vorbereitung.tuev-thueringen.de/angebote/fahreignungsseminar-gemaess-42-fev/
+09:13:17	Warning: 	Moved Permanently for https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Managementsysteme/
+09:13:17	Warning: 	File has moved from https://tuev-thueringen.de/Umwelt-Nachhaltigkeit/Managementsysteme/ to https://zertifizierung.tuev-thueringen.de/managementsysteme/
+09:13:17	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/media/32/39/eb/1636385357/Verfahrensanweisung_(1).pdf (from https://tuev-thueringen.de/unternehmen/ueber-uns/)
+09:13:23	Warning: 	Moved Permanently for https://tuev-thueringen.de/mbilitaet-verkehr/
+09:13:23	Warning: 	File has moved from https://tuev-thueringen.de/mbilitaet-verkehr/ to https://tuev-thueringen.de/mobilitaet-verkehr/
+09:13:25	Warning: 	Moved Permanently for tuev-thueringen.de/robots.txt
+09:13:25	Warning: 	Redirected link is identical because of 'URL Hack' option: tuev-thueringen.de/robots.txt and https://tuev-thueringen.de/robots.txt
+09:13:25	Warning: 	Warning moved treated for tuev-thueringen.de/robots.txt (real one is https://tuev-thueringen.de/robots.txt)
+09:13:25	Warning: 	Moved Permanently for tuev-thueringen.de/zeichen-zertifikate/zertifizierungsstelle/
+09:13:25	Warning: 	Redirected link is identical because of 'URL Hack' option: tuev-thueringen.de/zeichen-zertifikate/zertifizierungsstelle/ and https://tuev-thueringen.de/zeichen-zertifikate/zertifizierungsstelle/
+09:13:25	Warning: 	File has moved from tuev-thueringen.de/zeichen-zertifikate/zertifizierungsstelle/ to https://tuev-thueringen.de/zeichen-zertifikate/zertifizierungsstelle/
+09:13:26	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/Zeichen-Zertifikate/Zertifizierungsstelle/ (from https://tuev-thueringen.de/unternehmen/tuev-thueringen-vor-ort/international/)
+09:14:44	Warning: 	Moved Permanently for https://tuev-thueringen.de/Unternehmen/Kontakt/Datenschutz-Erklaerung/
+09:14:44	Warning: 	File has moved from https://tuev-thueringen.de/Unternehmen/Kontakt/Datenschutz-Erklaerung/ to https://tuev-thueringen.de/unternehmen/kontakt/datenschutzinformation/
+09:14:45	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/media/94/27/99/1636451962/AGB_TUEV_Akademie_GmbH_dt_(1).pdf (from https://tuev-thueringen.de/Kontakt/Downloads/)
+09:14:45	Warning: 	Moved Permanently for https://tuev-thueringen.de/unternehmen/kontakt/datenschutz-erklaerung/
+09:14:45	Warning: 	File has moved from https://tuev-thueringen.de/unternehmen/kontakt/datenschutz-erklaerung/ to https://tuev-thueringen.de/unternehmen/kontakt/datenschutzinformation/
+09:14:47	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/qualitaetssiegel/ (from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/qualitaetssiegel/zertifizierte-e-werkstatt/)
+09:15:01	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/umweltmanagementsysteme/ (from https://tuev-thueringen.de/umwelt-nachhaltigkeit/managementsysteme/umweltmanagement/)
+09:15:48	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/widgets/menu/offcanvas?navigationId=3db2f36cf10f439b9c197d6eb8ca30b0 (from https://tuev-thueringen.de/widgets/menu/offcanvas?navigationId=889a27e581f649efb9c95c169ce34249)
+09:15:48	Error: 	"Not Found" (404) at link https://tuev-thueringen.de/" (from https://tuev-thueringen.de/mobilitaet-verkehr/tuev-thueringen/tuev-footer/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 40 seconds : 1095 links scanned, 1018 files written (363103301 bytes overall) [262382265 bytes received at 345239 bytes/sec], 116063800 bytes transferred using HTTP compression in 387 files, ratio 7%, 23.8 requests per connection
+(19 errors, 118 warnings, 0 messages)

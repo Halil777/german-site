@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+tuev-thueringen.de	TRUE	/	FALSE	1999999999	session-	3v9fkrgf6l13kvfuevab7r0q50
+tuev-thueringen.de	TRUE	/	FALSE	1999999999	samesite	lax
+www.shopware.com	TRUE	/	FALSE	1999999999	languageBannerSettings	%7B%22closed%22%3Afalse%7D
+www.shopware.com	TRUE	/	FALSE	1999999999	languageUnsupportedBannerSettings	%7B%22closed%22%3Afalse%7D
+www.shopware.com	TRUE	/	FALSE	1999999999	currentRibbon	false
+
