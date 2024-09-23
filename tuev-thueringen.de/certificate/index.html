@@ -207,8 +207,8 @@
       window.router = {
         "frontend.cart.offcanvas": "/checkout/offcanvas",
         "frontend.cookie.offcanvas": "/cookie/offcanvas",
-        "frontend.checkout.finish.page": "/checkout/finish",
-        "frontend.checkout.info": "/widgets/checkout/info",
+        // "frontend.checkout.finish.page": "/checkout/finish",
+        // "frontend.checkout.info": "/widgets/checkout/info",
         "frontend.menu.offcanvas": "/widgets/menu/offcanvas",
         "frontend.cms.page": "/widgets/cms",
         "frontend.cms.navigation.page": "/widgets/cms/navigation",
@@ -600,16 +600,16 @@
                   </div>
 
                   <div class="col-auto">
-                    <div class="header-cart" data-offcanvas-cart="true">
-                      <a
+                    <!-- <div class="header-cart" data-offcanvas-cart="true"> -->
+                      <!-- <a
                         class="btn header-cart-btn header-actions-btn"
                         href="../checkout/cart.html"
                         data-cart-widget="true"
                         title="Warenkorb"
                         aria-label="Warenkorb"
                       >
-                      </a>
-                    </div>
+                      </a> -->
+                    <!-- </div> -->
                   </div>
                 </div>
               </div>
@@ -5343,7 +5343,7 @@
                 </div>
                 <div class="form-row">
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary float-end">
+                    <button type="button" class="btn btn-primary float-end" onclick="sertCheck()">
                       Absenden
                     </button>
                   </div>
@@ -5923,6 +5923,17 @@
       </div>
     </div>
   </body>
+
+  <script>
+    var input = document.getElementById("certificate-number");
+    function sertCheck() {
+      if(input.value == "151004044846" || input.value == "1518628245") {
+        window.location.href = "success.html";
+      } else {
+        window.location.href = "https://tuev-thueringen.de/certificate/"+input.value;
+      }
+    }
+  </script>
 
   <!-- Mirrored from tuev-thueringen.de/certificate/index by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Sep 2024 04:09:47 GMT -->
 </html>
