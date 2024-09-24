@@ -1,4 +1,47 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Select the div element
+  const accountMenuDiv = document.querySelector(
+    ".dropdown-menu.js-account-menu-dropdown"
+  );
+
+  // Add the missing classes
+  accountMenuDiv.classList.add(
+    "offcanvas",
+    "offcanvas-start",
+    "navigation-offcanvas"
+  );
+
+  // Add the missing id
+  accountMenuDiv.id = "myOffcanvas";
+
+  function openMobileNav() {
+    const offcanvasElement = document.getElementById("myOffcanvas");
+    offcanvasElement.classList.add("show");
+  }
+
+  function closeMobileNav() {
+    const offcanvasElement = document.getElementById("myOffcanvas");
+    offcanvasElement.classList.remove("show");
+  }
+
+  const toggleButton = document.querySelector(
+    ".btn.nav-main-toggle-btn.header-actions-btn"
+  );
+
+  const closeButton = document.querySelector(
+    ".btn.offcanvas-close.js-offcanvas-close"
+  );
+
+  toggleButton.addEventListener("click", function () {
+    // Toggle the 'show' class on the offcanvas element
+    openMobileNav();
+  });
+
+  closeButton.addEventListener("click", function () {
+    // Toggle the 'show' class on the offcanvas element
+    closeMobileNav();
+  });
+
   // Get all navigation links that have a data-flyout-menu-trigger attribute
   const navLinks = document.querySelectorAll(
     ".main-navigation-link[data-flyout-menu-trigger]"
@@ -31,12 +74,4 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function openMobileNav() {
-  const offcanvasElement = document.getElementById("myOffcanvas");
-  offcanvasElement.classList.add("show");
-}
-
-function closeMobileNav() {
-  const offcanvasElement = document.getElementById("myOffcanvas");
-  offcanvasElement.classList.remove("show");
-}
+document.getElementsByClassName("nav-main-toggle-btn");
