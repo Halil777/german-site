@@ -20701,13 +20701,13 @@
                   s = o.state;
                 if (i)
                   if ((n.pushState({ key: a, state: s }, null, e), w))
-                    window.location.href = e;
+                    window.location.hr = e;
                   else {
                     var c = N.indexOf(U.location.key),
                       l = N.slice(0, c + 1);
                     l.push(o.key), (N = l), S({ action: r, location: o });
                   }
-                else window.location.href = e;
+                else window.location.hr = e;
               }
             });
           },
@@ -31683,7 +31683,7 @@
                     return;
                   if (i.classList.contains(this.options.closeEditorClass))
                     if ((t.close(), R.Z.create(), "function" == typeof URL)) {
-                      const t = new URL(window.location.href);
+                      const t = new URL(window.location.hr);
                       t.searchParams.delete("redirected"),
                         window.location.assign(t.toString());
                     } else window.location.reload();
@@ -33580,7 +33580,7 @@
             this.handleEvents();
         }
         handleTrackingLocation() {
-          this.trackingUrl = new URL(window.location.href);
+          this.trackingUrl = new URL(window.location.hr);
           const t = this.trackingUrl.searchParams.get("gclid");
           t
             ? this.storage.setItem(this._getGclidStorageKey(), t)
@@ -36137,7 +36137,7 @@
         init() {
           const t = this.el;
           t &&
-            We.toCanvas(window.location.href, this.options, function (e, i) {
+            We.toCanvas(window.location.hr, this.options, function (e, i) {
               if (e) throw e;
               t.appendChild(i);
             });
@@ -38036,11 +38036,11 @@
             this._offCanvasCart.forEach((t) => {
               t.$emitter.subscribe(
                 "openOffCanvasCart",
-                () => (window.location.href = i)
+                () => (window.location.hr = i)
               ),
                 t.$emitter.subscribe(
                   "offCanvasOpened",
-                  () => (window.location.href = i)
+                  () => (window.location.hr = i)
                 );
             });
           else {
@@ -38052,7 +38052,7 @@
                   e.classList.contains("buy-widget") &&
                     "childList" === r.type &&
                     r.target.classList.contains("is-open") &&
-                    (window.location.href = i);
+                    (window.location.hr = i);
                 }
               }).observe(t, {
                 childList: !0,
@@ -41228,7 +41228,7 @@
                 (t <= "Z" ? 90 : 122) >= (t = t.charCodeAt(0) + 10) ? t : t - 26
               );
             });
-            location.href = this.options.mailTo + e;
+            location.hr = this.options.mailTo + e;
           }
         }
         _encryptStoreData(t, e = 16, o = {}) {
@@ -41358,7 +41358,7 @@
                 (t <= "Z" ? 90 : 122) >= (t = t.charCodeAt(0) + 10) ? t : t - 26
               );
             });
-            location.href = this.options.mailTo + e;
+            location.hr = this.options.mailTo + e;
           }
         }
       }
@@ -56158,7 +56158,7 @@
           setInterval(function () {
             let s = new Date(),
               r = Math.floor((i.getTime() - s.getTime()) / 1e3);
-            t && r < 1 && (location.href = t);
+            t && r < 1 && (location.hr = t);
             let a = Math.trunc(r / 86400),
               l = Math.trunc((r % 86400) / 3600),
               h = Math.trunc((r % 3600) / 60),
@@ -56222,7 +56222,7 @@
               (clearInterval(a),
               r.get(t, (t) => {
                 (t = JSON.parse(t)).url
-                  ? (window.location.href = t.url)
+                  ? (window.location.hr = t.url)
                   : window.location.reload();
               }));
             let h = Math.trunc(l / 86400),
