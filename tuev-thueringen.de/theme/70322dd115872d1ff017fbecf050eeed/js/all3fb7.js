@@ -30,3 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function openMobileNav() {
+  const offcanvasElement = document.getElementById("myOffcanvas");
+  offcanvasElement.classList.add("show");
+}
+
+function closeMobileNav() {
+  const offcanvasElement = document.getElementById("myOffcanvas");
+  offcanvasElement.classList.remove("show");
+}

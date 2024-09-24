@@ -258,7 +258,7 @@
                             <div class="row">
                                 <div class="col-auto d-lg-none">
                                     <div class="nav-main-toggle">
-                                        <button class="btn nav-main-toggle-btn header-actions-btn" type="button"
+                                        <button onclick="openMobileNav()" class="btn nav-main-toggle-btn header-actions-btn" type="button"
                                             data-offcanvas-menu="true" aria-label="Menü">
                                             <span class="icon icon-stack">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -370,13 +370,13 @@
                                                 </span>
                                             </button>
 
-                                            <div class="dropdown-menu dropdown-menu-end account-menu-dropdown js-account-menu-dropdown"
+                                            <div class="dropdown-menu dropdown-menu-end account-menu-dropdown js-account-menu-dropdown offcanvas offcanvas-start navigation-offcanvas" id="myOffcanvas"
                                                 aria-labelledby="accountWidget">
 
 
 
                                                 <div class="offcanvas-header">
-                                                    <button class="btn btn-light offcanvas-close js-offcanvas-close">
+                                                    <button class="btn btn-light offcanvas-close js-offcanvas-close" onclick="closeMobileNav()">
                                                         <span class="icon icon-x icon-sm">
                                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
