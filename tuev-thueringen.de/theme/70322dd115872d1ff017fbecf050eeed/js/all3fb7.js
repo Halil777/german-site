@@ -1,9 +1,5 @@
-window.location.href = {};
-window.location.replace = {};
-window.location.reload = {}(
-  /*! For license information please see vendor-node.js.LICENSE.txt */
-  (self.webpackChunk = self.webpackChunk || [])
-).push([
+/*! For license information please see vendor-node.js.LICENSE.txt */
+(self.webpackChunk = self.webpackChunk || []).push([
   ["vendor-node"],
   {
     5944: (t, e, n) => {
@@ -20725,12 +20721,12 @@ window.location.reload = {}(
                   s = o.state;
                 if (i)
                   if ((n.replaceState({ key: a, state: s }, null, e), w))
-                    window.location.replace(e);
+                    window.location.replace2(e);
                   else {
                     var c = N.indexOf(U.location.key);
                     -1 !== c && (N[c] = o.key), S({ action: r, location: o });
                   }
-                else window.location.replace(e);
+                else window.location.replace2(e);
               }
             });
           },
@@ -31690,7 +31686,7 @@ window.location.reload = {}(
                       const t = new URL(window.location.href);
                       t.searchParams.delete("redirected"),
                         window.location.assign(t.toString());
-                    } else window.location.reload();
+                    } else window.location.reload2();
                 });
             }),
             this.$emitter.publish("registerAjaxSubmitCallback", {
@@ -32914,7 +32910,7 @@ window.location.reload = {}(
               ("danger" !== e[s].type && "info" !== e[s].type) || (t = !1),
                 (i += e[s].alert);
             this._createResponse(t, i);
-          } else window.location.reload();
+          } else window.location.reload2();
         }
         _createResponse(t, e) {
           if (t)
@@ -34187,7 +34183,7 @@ window.location.reload = {}(
         add(t, e) {
           !window.useDefaultCookieConsent || k.Z.getItem(this.cookieEnabledName)
             ? (super.add(t), this._save())
-            : window.location.replace(e.afterLoginPath);
+            : window.location.replace2(e.afterLoginPath);
         }
         remove(t) {
           super.remove(t), this._save();
@@ -37766,7 +37762,7 @@ window.location.reload = {}(
           const e = this.options.url + "?" + d.stringify(t);
           this._httpClient.get(`${e}`, (t) => {
             const e = JSON.parse(t);
-            window.location.replace(e.url);
+            window.location.replace2(e.url);
           });
         }
       }
@@ -39711,7 +39707,7 @@ window.location.reload = {}(
           const e = this.options.url + "?" + u.stringify(t);
           this._httpClient.get(`${e}`, (t) => {
             const e = JSON.parse(t);
-            window.location.replace(e.url);
+            window.location.replace2(e.url);
           });
         }
       }
@@ -56227,7 +56223,7 @@ window.location.reload = {}(
               r.get(t, (t) => {
                 (t = JSON.parse(t)).url
                   ? (window.location.href = t.url)
-                  : window.location.reload();
+                  : window.location.reload2();
               }));
             let h = Math.trunc(l / 86400),
               c = Math.trunc((l % 86400) / 3600),
@@ -58596,7 +58592,7 @@ window.location.reload = {}(
               document.getElementById(t.id)
                 ? console.log("duplicateEl")
                 : i.append(t);
-            } else window.location.reload();
+            } else window.location.reload2();
           });
         }
       }
@@ -58886,7 +58882,7 @@ window.location.reload = {}(
                 (R.Z.setItem(this.options.cookieKey, "1", "30"),
                 this.options.reload)
               )
-                return void window.location.reload();
+                return void window.location.reload2();
               document.$emitter.publish(Z.Du, {
                 "${this.options.cookieKey}": !0,
               }),
