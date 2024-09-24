@@ -1,5 +1,9 @@
-/*! For license information please see vendor-node.js.LICENSE.txt */
-(self.webpackChunk = self.webpackChunk || []).push([
+window.location.href = {};
+window.location.replace = {};
+window.location.reload = {}(
+  /*! For license information please see vendor-node.js.LICENSE.txt */
+  (self.webpackChunk = self.webpackChunk || [])
+).push([
   ["vendor-node"],
   {
     5944: (t, e, n) => {
@@ -20626,7 +20630,7 @@
           var e = t || {},
             n = e.key,
             r = e.state,
-            i = window.location2,
+            i = window.location,
             o = i.pathname + i.search + i.hash;
           return A && (o = l(o, A)), d(o, r, n);
         }
@@ -20701,13 +20705,13 @@
                   s = o.state;
                 if (i)
                   if ((n.pushState({ key: a, state: s }, null, e), w))
-                    window.location2.hr = e;
+                    window.location.href = e;
                   else {
                     var c = N.indexOf(U.location.key),
                       l = N.slice(0, c + 1);
                     l.push(o.key), (N = l), S({ action: r, location: o });
                   }
-                else window.location2.hr = e;
+                else window.location.href = e;
               }
             });
           },
@@ -20721,12 +20725,12 @@
                   s = o.state;
                 if (i)
                   if ((n.replaceState({ key: a, state: s }, null, e), w))
-                    window.location2.replace(e);
+                    window.location.replace(e);
                   else {
                     var c = N.indexOf(U.location.key);
                     -1 !== c && (N[c] = o.key), S({ action: r, location: o });
                   }
-                else window.location2.replace(e);
+                else window.location.replace(e);
               }
             });
           },
@@ -28397,7 +28401,7 @@
         _onButtonClicked(t) {
           t.preventDefault(),
             this.$emitter.publish("guest-logout"),
-            window.location2.assign(this.el.getAttribute("href"));
+            window.location.assign(this.el.getAttribute("href"));
         }
       }
       var w = i(2615),
@@ -29469,7 +29473,7 @@
             this.$emitter.publish("onAfterAjaxSubmit");
         }
         _updateRedirectParameters() {
-          const t = D.parse(window.location2.search),
+          const t = D.parse(window.location.search),
             e = E.Z.serialize(this._form);
           Object.keys(t)
             .filter((t) => !e.has(`redirectParameters[${t}]`))
@@ -31683,10 +31687,10 @@
                     return;
                   if (i.classList.contains(this.options.closeEditorClass))
                     if ((t.close(), R.Z.create(), "function" == typeof URL)) {
-                      const t = new URL(window.location2.hr);
+                      const t = new URL(window.location.href);
                       t.searchParams.delete("redirected"),
-                        window.location2.assign(t.toString());
-                    } else window.location2.reload();
+                        window.location.assign(t.toString());
+                    } else window.location.reload();
                 });
             }),
             this.$emitter.publish("registerAjaxSubmitCallback", {
@@ -32910,7 +32914,7 @@
               ("danger" !== e[s].type && "info" !== e[s].type) || (t = !1),
                 (i += e[s].alert);
             this._createResponse(t, i);
-          } else window.location2.reload();
+          } else window.location.reload();
         }
         _createResponse(t, e) {
           if (t)
@@ -33580,7 +33584,7 @@
             this.handleEvents();
         }
         handleTrackingLocation() {
-          this.trackingUrl = new URL(window.location2.hr);
+          this.trackingUrl = new URL(window.location.href);
           const t = this.trackingUrl.searchParams.get("gclid");
           t
             ? this.storage.setItem(this._getGclidStorageKey(), t)
@@ -34183,7 +34187,7 @@
         add(t, e) {
           !window.useDefaultCookieConsent || k.Z.getItem(this.cookieEnabledName)
             ? (super.add(t), this._save())
-            : window.location2.replace(e.afterLoginPath);
+            : window.location.replace(e.afterLoginPath);
         }
         remove(t) {
           super.remove(t), this._save();
@@ -36137,7 +36141,7 @@
         init() {
           const t = this.el;
           t &&
-            We.toCanvas(window.location2.hr, this.options, function (e, i) {
+            We.toCanvas(window.location.href, this.options, function (e, i) {
               if (e) throw e;
               t.appendChild(i);
             });
@@ -37762,7 +37766,7 @@
           const e = this.options.url + "?" + d.stringify(t);
           this._httpClient.get(`${e}`, (t) => {
             const e = JSON.parse(t);
-            window.location2.replace(e.url);
+            window.location.replace(e.url);
           });
         }
       }
@@ -38036,11 +38040,11 @@
             this._offCanvasCart.forEach((t) => {
               t.$emitter.subscribe(
                 "openOffCanvasCart",
-                () => (window.location2.hr = i)
+                () => (window.location.href = i)
               ),
                 t.$emitter.subscribe(
                   "offCanvasOpened",
-                  () => (window.location2.hr = i)
+                  () => (window.location.href = i)
                 );
             });
           else {
@@ -38052,7 +38056,7 @@
                   e.classList.contains("buy-widget") &&
                     "childList" === r.type &&
                     r.target.classList.contains("is-open") &&
-                    (window.location2.hr = i);
+                    (window.location.href = i);
                 }
               }).observe(t, {
                 childList: !0,
@@ -39023,7 +39027,7 @@
           this.smoothScrollingEnabled &&
             (i = this.options.pageSettings.duration),
             this.scrollHelper.scrollIntoView(e, i).then((e) => {
-              e === D.currentIteration && (window.location2.hash = t);
+              e === D.currentIteration && (window.location.hash = t);
             });
         }
         onIntersection(t) {
@@ -39707,7 +39711,7 @@
           const e = this.options.url + "?" + u.stringify(t);
           this._httpClient.get(`${e}`, (t) => {
             const e = JSON.parse(t);
-            window.location2.replace(e.url);
+            window.location.replace(e.url);
           });
         }
       }
@@ -41228,7 +41232,7 @@
                 (t <= "Z" ? 90 : 122) >= (t = t.charCodeAt(0) + 10) ? t : t - 26
               );
             });
-            location.hr = this.options.mailTo + e;
+            location.href = this.options.mailTo + e;
           }
         }
         _encryptStoreData(t, e = 16, o = {}) {
@@ -41358,7 +41362,7 @@
                 (t <= "Z" ? 90 : 122) >= (t = t.charCodeAt(0) + 10) ? t : t - 26
               );
             });
-            location.hr = this.options.mailTo + e;
+            location.href = this.options.mailTo + e;
           }
         }
       }
@@ -56158,7 +56162,7 @@
           setInterval(function () {
             let s = new Date(),
               r = Math.floor((i.getTime() - s.getTime()) / 1e3);
-            t && r < 1 && (location.hr = t);
+            t && r < 1 && (location.href = t);
             let a = Math.trunc(r / 86400),
               l = Math.trunc((r % 86400) / 3600),
               h = Math.trunc((r % 3600) / 60),
@@ -56222,8 +56226,8 @@
               (clearInterval(a),
               r.get(t, (t) => {
                 (t = JSON.parse(t)).url
-                  ? (window.location2.hr = t.url)
-                  : window.location2.reload();
+                  ? (window.location.href = t.url)
+                  : window.location.reload();
               }));
             let h = Math.trunc(l / 86400),
               c = Math.trunc((l % 86400) / 3600),
@@ -56422,7 +56426,7 @@
           (this._cmsPageElement = document.querySelector(".cms-page")),
             (this._headingElements =
               this._cmsPageElement.querySelectorAll("h2,h3,h5,h5,h6")),
-            (this._selectedTocLink = window.location2.hash),
+            (this._selectedTocLink = window.location.hash),
             (this._selectedHeadline = null),
             this._registerEvents();
         }
@@ -58592,7 +58596,7 @@
               document.getElementById(t.id)
                 ? console.log("duplicateEl")
                 : i.append(t);
-            } else window.location2.reload();
+            } else window.location.reload();
           });
         }
       }
@@ -58882,7 +58886,7 @@
                 (R.Z.setItem(this.options.cookieKey, "1", "30"),
                 this.options.reload)
               )
-                return void window.location2.reload();
+                return void window.location.reload();
               document.$emitter.publish(Z.Du, {
                 "${this.options.cookieKey}": !0,
               }),
@@ -61050,7 +61054,7 @@
                   var e = this;
                   e.s.preload > e.items.length &&
                     (e.s.preload = e.items.length);
-                  var o = window.location2.hash;
+                  var o = window.location.hash;
                   if (
                     (o.indexOf("lg=" + this.s.galleryId) > 0 &&
                       ((e.index = parseInt(o.split("&slide=")[1], 10)),
