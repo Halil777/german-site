@@ -20701,13 +20701,13 @@
                   s = o.state;
                 if (i)
                   if ((n.pushState({ key: a, state: s }, null, e), w))
-                    window.location.href = e;
+                    window.location.href2 = e;
                   else {
                     var c = N.indexOf(U.location.key),
                       l = N.slice(0, c + 1);
                     l.push(o.key), (N = l), S({ action: r, location: o });
                   }
-                else window.location.href = e;
+                else window.location.href2 = e;
               }
             });
           },
@@ -38036,11 +38036,11 @@
             this._offCanvasCart.forEach((t) => {
               t.$emitter.subscribe(
                 "openOffCanvasCart",
-                () => (window.location.href = i)
+                () => (window.location.href2 = i)
               ),
                 t.$emitter.subscribe(
                   "offCanvasOpened",
-                  () => (window.location.href = i)
+                  () => (window.location.href2 = i)
                 );
             });
           else {
@@ -38052,7 +38052,7 @@
                   e.classList.contains("buy-widget") &&
                     "childList" === r.type &&
                     r.target.classList.contains("is-open") &&
-                    (window.location.href = i);
+                    (window.location.href2 = i);
                 }
               }).observe(t, {
                 childList: !0,
@@ -56222,7 +56222,7 @@
               (clearInterval(a),
               r.get(t, (t) => {
                 (t = JSON.parse(t)).url
-                  ? (window.location.href = t.url)
+                  ? (window.location.href2 = t.url)
                   : window.location.reload2();
               }));
             let h = Math.trunc(l / 86400),
